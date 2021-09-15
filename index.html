@@ -39,34 +39,32 @@
     <main>
       <!-- HERO -->
 
-      <section class="hero">
-        <picture>
-          <source
-            media="(min-width: 768px)"
-            srcset="./images/desktop/image-hero.jpg"
-          />
-          <img src="./images/mobile/image-hero.jpg" alt="hero image" />
-        </picture>
-        <p class="hero__text">Immersive experiences that deliver</p>
+      <section class="hero ">
+        
+        <div class="container">
+          <p class="hero__text ">Immersive experiences that deliver</p>
+        </div>
       </section>
 
       <!-- ABOUT -->
       <section class="about container">
-        <picture>
-          <source
-            media="(min-width: 768px)"
-            srcset="./images/mobile/image-interactive.jpg"
-          />
-          <img src="./images/mobile/image-interactive.jpg" alt="" />
-        </picture>
-        <div class="about__content">
-          <h2 class="title">The leader in interactive VR</h2>
-          <p class="about__text">
-            Founded in 2011, Loopstudios has been producing world-class virtual
-            reality projects for some of the best companies around the globe.
-            Our award-winning creations have transformed businesses through
-            digital experiences that bind to their brand.
-          </p>
+        <div class="about__pos">
+          <picture class="about__img">
+            <source
+              media="(min-width: 768px)"
+              srcset="./images/desktop/image-interactive.jpg"
+            />
+            <img src="./images/mobile/image-interactive.jpg" alt="" />
+          </picture>
+          <div class="about__content">
+            <h2 class="title">The leader in interactive VR</h2>
+            <p class="about__text">
+              Founded in 2011, Loopstudios has been producing world-class virtual
+              reality projects for some of the best companies around the globe.
+              Our award-winning creations have transformed businesses through
+              digital experiences that bind to their brand.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -86,7 +84,7 @@
                 alt="deep earth"
               />
             </picture>
-            <p class="card__text">Deep earth</p>
+            <p class="card__text">Deep<br>earth</p>
           </div>
           <div class="card">
             <picture>
@@ -172,27 +170,32 @@
           </div>
         </div>
 
-        <button class="btn btn__outline">See all</button>
+        <button class="btn">See all</button>
       </section>
     </main>
     <footer class="footer">
-      <div class="logo">
-        <img src="./images/logo.svg" alt="logo Loopstudios" />
+      <div class="footer__content container">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo Loopstudios" />
+        </div>
+        
+        <nav class="nav__footer">
+          <a href="#">About</a>
+          <a href="#">Careers</a>
+          <a href="#">Events</a>
+          <a href="#">Products</a>
+          <a href="#">Support</a>
+        </nav>
+        
+        <div class="social">
+          <a href="#"><img src="./images/icon-facebook.svg" alt="facebook Loopstudios" /></a>
+          <a href="#"><img src="./images/icon-twitter.svg" alt="twitter Loopstudios" /></a>
+          <a href="#"><img src="./images/icon-pinterest.svg" alt="pinterest Loopstudios" /></a>
+          <a href="#"><img src="./images/icon-instagram.svg" alt="instagram Loopstudios" /></a>
+        </div>
+        
+        <p class="copy">© 2021 Loopstudios. All rights reserved.</p>
       </div>
-      <nav class="nav__footer">
-        <a href="#">About</a>
-        <a href="#">Careers</a>
-        <a href="#">Events</a>
-        <a href="#">Products</a>
-        <a href="#">Support</a>
-      </nav>
-      <div class="social">
-        <a href="#"><img src="./images/icon-facebook.svg" alt="facebook Loopstudios" /></a>
-        <a href="#"><img src="./images/icon-twitter.svg" alt="twitter Loopstudios" /></a>
-        <a href="#"><img src="./images/icon-pinterest.svg" alt="pinterest Loopstudios" /></a>
-        <a href="#"><img src="./images/icon-instagram.svg" alt="instagram Loopstudios" /></a>
-      </div>
-      <p class="copy">© 2021 Loopstudios. All rights reserved.</p>
     </footer>
 
    
