@@ -24,13 +24,21 @@
         </div>
 
         <ul class="menu__list">
-          <li class="list__item"><a href="#" class="list__link">About</a></li>
-          <li class="list__item"><a href="#" class="list__link">Careers</a></li>
-          <li class="list__item"><a href="#" class="list__link">Events</a></li>
           <li class="list__item">
-            <a href="#" class="list__link">Products</a>
+            <a href="#about" class="list__link">About</a>
           </li>
-          <li class="list__item"><a href="#" class="list__link">Support</a></li>
+          <li class="list__item">
+            <a href="#carrers" class="list__link">Careers</a>
+          </li>
+          <li class="list__item">
+            <a href="#carrers" class="list__link">Events</a>
+          </li>
+          <li class="list__item">
+            <a href="#carrers" class="list__link">Products</a>
+          </li>
+          <li class="list__item">
+            <a href="#contact" class="list__link">Support</a>
+          </li>
         </ul>
 
         <div class="menu__toggle"></div>
@@ -39,15 +47,14 @@
     <main>
       <!-- HERO -->
 
-      <section class="hero ">
-        
+      <section class="hero">
         <div class="container">
-          <p class="hero__text ">Immersive experiences that deliver</p>
+          <p class="hero__text">Immersive experiences that deliver</p>
         </div>
       </section>
 
       <!-- ABOUT -->
-      <section class="about container">
+      <section class="about container" id="about">
         <div class="about__pos">
           <picture class="about__img">
             <source
@@ -59,17 +66,17 @@
           <div class="about__content">
             <h2 class="title">The leader in interactive VR</h2>
             <p class="about__text">
-              Founded in 2011, Loopstudios has been producing world-class virtual
-              reality projects for some of the best companies around the globe.
-              Our award-winning creations have transformed businesses through
-              digital experiences that bind to their brand.
+              Founded in 2011, Loopstudios has been producing world-class
+              virtual reality projects for some of the best companies around the
+              globe. Our award-winning creations have transformed businesses
+              through digital experiences that bind to their brand.
             </p>
           </div>
         </div>
       </section>
 
       <!-- CAREERS -->
-      <section class="careers container">
+      <section class="careers container" id="carrers">
         <h2 class="title">Our creations</h2>
 
         <div class="cards">
@@ -84,7 +91,7 @@
                 alt="deep earth"
               />
             </picture>
-            <p class="card__text">Deep<br>earth</p>
+            <p class="card__text">Deep<br />earth</p>
           </div>
           <div class="card">
             <picture>
@@ -173,32 +180,38 @@
         <button class="btn">See all</button>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <div class="footer__content container">
         <div class="logo">
           <img src="./images/logo.svg" alt="logo Loopstudios" />
         </div>
-        
+
         <nav class="nav__footer">
-          <a href="#">About</a>
-          <a href="#">Careers</a>
-          <a href="#">Events</a>
-          <a href="#">Products</a>
-          <a href="#">Support</a>
+          <a href="#about">About</a>
+          <a href="#carrers">Careers</a>
+          <a href="#carrers">Events</a>
+          <a href="#carrers">Products</a>
+          <a href="#contact">Support</a>
         </nav>
-        
+
         <div class="social">
-          <a href="#"><img src="./images/icon-facebook.svg" alt="facebook Loopstudios" /></a>
-          <a href="#"><img src="./images/icon-twitter.svg" alt="twitter Loopstudios" /></a>
-          <a href="#"><img src="./images/icon-pinterest.svg" alt="pinterest Loopstudios" /></a>
-          <a href="#"><img src="./images/icon-instagram.svg" alt="instagram Loopstudios" /></a>
+          <a href="#"
+            ><img src="./images/icon-facebook.svg" alt="facebook Loopstudios"
+          /></a>
+          <a href="#"
+            ><img src="./images/icon-twitter.svg" alt="twitter Loopstudios"
+          /></a>
+          <a href="#"
+            ><img src="./images/icon-pinterest.svg" alt="pinterest Loopstudios"
+          /></a>
+          <a href="#"
+            ><img src="./images/icon-instagram.svg" alt="instagram Loopstudios"
+          /></a>
         </div>
-        
+
         <p class="copy">© 2021 Loopstudios. All rights reserved.</p>
       </div>
     </footer>
-
-   
 
     <!--  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
